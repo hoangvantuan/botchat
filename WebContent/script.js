@@ -1,6 +1,6 @@
 'use strict';
 
-var ws = new WebSocket("wss://" + location.host + "/bot");
+var ws = new WebSocket("wss://" + location.host + "/botchat/bot");
 
 $(function () {
   $('form').submit(function(){
