@@ -1,6 +1,6 @@
 'use strict';
 
-var ws = new WebSocket('ws://localhost:8080/botchat/bot');
+var ws = new WebSocket('ws://rocky-lowlands-16180.herokuapp.com/bot');
 
 $(function () {
   $('form').submit(function(){
