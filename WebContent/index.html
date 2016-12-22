@@ -1,12 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-<script src="js/jquery.js"></script>
-<script src="js/custome.js"></script>
-</head>
-<body>
-	<span id="message"></span>
-</body>
+  <head>
+    <title>websocket chat</title>
+    <link rel="stylesheet" href="index.css"></link>
+  </head>
+  <body>
+    <div class="container messages">
+      <ul id="messages" class="ul messages"></ul>
+    </div>
+    <div class="container msgform">
+      <form action="#" class="form msgform">
+        <input id="m" autocomplete="off" class="input"/>
+        <button class="submit button" type="submit">Send</button>
+      </form>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
